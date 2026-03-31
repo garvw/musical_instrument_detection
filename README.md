@@ -15,12 +15,13 @@ This project uses a Convolutional Neural Network (CNN) to analyze audio files an
 * **NumPy & Scikit-learn** (Data Manipulation & Label Encoding)
 
 ## 📂 How to Run
-Since the model is already trained and saved, you do not need to retrain it to test a new song!
+Since the model is already trained, you **do not** need to retrain it to test a new song!
 
-1. **Clone the repository** and ensure your `.keras` and `.npy` files are in the main folder.
-2. **Install dependencies:**
+1. **Download the Model:** Click here to download the pre-trained `instrument_model.keras` file from [Google Drive]([PASTE YOUR LINK HERE]). 
+2. **Move the file:** Place that downloaded `.keras` file in the exact same folder as the Jupyter Notebook on your computer.
+3. **Install dependencies:** Open your terminal and run:
    `pip install tensorflow librosa numpy scikit-learn`
-3. **Run the Notebook:**
-   * Run the setup cell to initialize the spectrogram function.
-   * Run the Load Model cell to load `instrument_model.keras` into memory.
-   * Run the testing cell on your `.wav` file to see the timestamped output!
+4. **Run the Notebook:**
+   * Run the first setup cell.
+   * Run the "Load Model" cell to load the `.keras` and `.npy` files.
+   * Run the final testing cell on your `.wav` file to see the timestamped output!
