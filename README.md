@@ -17,7 +17,7 @@ This project uses a Convolutional Neural Network (CNN) to analyze audio files an
 ## 📂 How to Run
 Since the model is already trained, you **do not** need to retrain it to test a new song!
 
-1. **Download the Model:** Click here to download the pre-trained `instrument_model.keras` file from [Google Drive]([[LINK](https://drive.google.com/drive/folders/1gFpMn0pdYeu9Eq2Tuv72Bxqb0T5voENF)]). 
+1. **Download the Model:** Click here to download the pre-trained `instrument_model.keras` file from [Google Drive]((https://drive.google.com/drive/folders/1gFpMn0pdYeu9Eq2Tuv72Bxqb0T5voENF)]). 
 2. **Move the file:** Place that downloaded `.keras` file in the exact same folder as the Jupyter Notebook on your computer.
 3. **Install dependencies:** Open your terminal and run:
    `pip install tensorflow librosa numpy scikit-learn`
